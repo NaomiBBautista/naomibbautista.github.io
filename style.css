@@ -1,0 +1,602 @@
+  /* Barra de navegacion */
+  .navbar 
+  {
+    padding: 2rem;
+    background-color: #CB1C8D;
+  }
+
+  .navbar a
+  {
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+    color:antiquewhite;
+  }
+
+  .navbar-collapse 
+  {
+    align-items: center;
+    justify-content: space-between;  
+  }
+
+  /* Estilos generales */
+
+  section 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 
+  {
+    font-size: 50px;
+    font-family: 'Lobster Two', cursive;
+    color: rgb(203, 28, 141);
+  }
+
+  .seccion-oscura 
+  {
+    color: white;
+    background-color: #1b1b32;
+  }
+
+  .seccion-clara 
+  {
+    color: black;
+    background-color: white;
+  }
+
+  .seccion-titulo 
+  {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+  }
+
+  .seccion-descripcion 
+  {
+    font-size: 1.2rem;
+    color: #584e4e;
+  }
+
+  .seccion-texto 
+  {
+    font-size: 1.2rem;
+  }
+
+  .btn-info 
+  {
+    font-size: 1.1rem;
+    margin: 20px;
+  }
+
+  .texto-negro 
+  {
+    color: black;
+  }
+
+  .texto-blanco 
+  {
+    color: white;
+  }
+
+  /* Seccion Hero */
+
+  .hero 
+  {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+  }
+
+  .hero-principal 
+  {
+    padding: 3rem;
+  }
+
+  .hero-imagen-desarrollador 
+  {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+  }
+
+  .hero-principal h2 
+  {
+    font-size: 2rem;
+    font-family: 'Patrick Hand', cursive;
+    color:rgb(13, 110, 253);
+  }
+
+  .hero-inferior-imagen 
+  {
+    width: auto;
+    height: auto;
+    border-radius: 20%;
+  }
+
+
+  /* Sobre mi */
+
+  .sobre-mi 
+  {
+    height: 500px;
+    padding: 10px;
+    background-color: #160040;
+  }
+
+  .sobre-mi h2
+  {
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+  }
+
+  .sobre-mi .contenedor 
+  {
+    max-width: 600px;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+  }
+
+
+  /* Experiencia */
+
+  .experiencia 
+  {
+    padding: 40px 40px 60px 40px;
+  }
+
+  .experiencia .columna 
+  {
+    padding: 20px;
+    border: 2px solid #3F0071;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+    font-family:'Patrick Hand', cursive;;
+    font-size: 20px;
+  }
+
+  .experiencia .columna:hover 
+  {
+    background-color: #CB1C8D;
+    color: white;
+    font-size: 20px;
+    font-family: 'Handlee', cursive;
+  }
+
+  .experiencia i 
+  {
+    font-size: 2.5rem;
+    color: #FFBF00;
+    background-color: #160040;
+    padding: 8px 19px;
+    border-radius: 50%;
+  }
+
+  .experiencia-titulo 
+  {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lobster Two', cursive;
+    color:#160040 ;
+    margin: 10px 0;
+    
+  }
+
+  .badges-contenedor 
+  {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .badge 
+  {
+    margin: 5px;
+  }
+
+  /* Proyectos */
+
+  .proyectos-recientes 
+  {
+    align-items:center;
+    padding: 40px;
+  }
+
+  .proyectos-recientes h2
+  {
+    font-family: 'Lobster Two', cursive;
+    font-size: 60px;
+    color:#CB1C8D;
+  }
+
+  .proyectos-recientes h3
+  {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    color:#160040 ;
+  }
+
+  .proyectos-recientes img 
+  {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 250px;
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+  .proyectos-contenedor 
+  {
+    padding-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .overlay 
+  {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .overlay p 
+  {
+    font-size: 25px;
+    font-weight: bold;
+    color: #3F0071;
+    margin-bottom: 0;
+  }
+
+  .proyecto 
+  {
+    position: relative;
+  }
+
+  .proyecto:hover img 
+  {
+    opacity: 0.2;
+  }
+
+  .proyecto:hover .overlay 
+  {
+    opacity: 1;
+  }
+
+  .overlay .iconos-contenedor 
+  {
+    display: flex;
+  }
+
+  .overlay i 
+  {
+    color: #FFBF00;
+    font-size: 60px;
+    margin: 10px;
+  }
+
+
+
+  /* Articulos */
+
+  .articulos 
+  {
+    min-height: 500px;
+    padding: 30px;
+  }
+
+  .articulos h2
+  {
+    font-family: 'Lobster Two', cursive;
+    font-size: 60px;
+    color:#CB1C8D;
+  }
+
+  .articulos h3
+  {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    color:rgb(13, 110, 253);
+  }
+
+  .articulos .card 
+  {
+    border-width: .2cm;
+    border-top: 0cm;
+    border-style: double;
+    border-color: #7F167F;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+  }
+
+  .articulos .card-header 
+  {
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    background-color: #7F167F;
+    color: white;
+  }
+
+  .articulos a
+  {
+    color: #160040;
+    font-family: 'Handlee', cursive;
+    font-size: 15px;
+  }
+
+  /* Testimonios */
+
+  .testimonios 
+  {
+    padding: 40px 40px 80px 40px;
+  }
+
+
+  .testimonios h2
+  {
+    font-family: 'Lobster Two', cursive;
+    font-size: 60px;
+    color:#CB1C8D;
+  }
+
+  .testimonios h3
+  {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    color:rgb(13, 110, 253);
+  }
+
+  .testimonios .carousel 
+  {
+    max-width: 800px;
+  }
+
+  .carousel-item 
+  {
+    height: 500px;
+  }
+
+  .carousel-item .container 
+  {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonio-imagen 
+  {
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+  }
+
+  .testimonio-texto 
+  {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 25px;
+    color: #160040;
+  }
+
+  .testimonio-info 
+  {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .testimonio-info p 
+  {
+    color: rgb(203, 28, 141);
+    margin-bottom: 0;
+  }
+
+  .testimonio-footer .cliente 
+  {
+    font-size: 1.2rem;
+  }
+
+  .testimonio-info .cargo 
+  {
+    font-size: 0.9rem;
+    color:#aeaeae;
+  }
+
+  /* Contacto */
+
+  .contacto .container 
+  {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+  }
+
+  .contacto .rectangulo 
+  {
+    margin-top: -5rem;
+    background-color: #FFBF00;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+  }
+
+  .contacto .seccion-titulo
+  {
+    font-family: 'Lobster Two', cursive;
+    font-size: 50px;
+  }
+
+
+  .contacto .row 
+  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .contacto .descripcion
+  {
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  .contacto button 
+  {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .contacto button:hover 
+  {
+    background-color: white;
+    color: black;
+  }
+
+  .contacto button i 
+  {
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .contacto button:hover i 
+  {
+    color: #160040;
+  }
+
+  /* Pie de pagina (footer) */
+
+  footer 
+  {
+    min-height: 500px;
+  }
+
+  .footer i
+  {
+    width: 200px;
+    height:200px;
+  }
+
+  .seccion-oscura
+  {
+    background-color: #160040;
+  }
+
+  .footer-logo 
+  {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+
+  .footer-texto 
+  {
+    font-size: 2rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Patrick Hand', cursive;
+  }
+
+  .iconos-redes-sociales a 
+  {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+  }
+
+  .iconos-redes-sociales i 
+  {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+  }
+
+  .iconos-redes-sociales a:hover 
+  {
+    background-color: white;
+    border: 2px solid rgb(203, 28, 141);
+  }
+
+  .iconos-redes-sociales a:hover i 
+  {
+    color: #160040;
+  }
+
+  .derechos-de-autor 
+  {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+  }
+
+  /* Adaptable (Responsivo) */
+
+  @media screen and (max-width: 400px)
+  {
+    .overlay p 
+    {
+      font-size: 18px;
+    }
+
+    .overlay i 
+    {
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (max-width: 767px) 
+  {
+    .navbar-brand 
+    {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) 
+  {
+    .testimonio-imagen 
+    {
+      height: 120px;
+      width: 120px;
+    }
+
+    .testimonio-texto 
+    {
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (min-width: 700px) 
+  {
+    .hero-inferior-imagen 
+    {
+      max-width: 600px;
+    }
+  }
